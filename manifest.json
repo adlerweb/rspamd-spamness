@@ -3,15 +3,15 @@
   "applications": {
     "gecko": {
       "id": "rspamd-spamness@alexander.moisseev",
-      "strict_min_version": "78.0",
-      "strict_max_version": "116.*"
+      "strict_min_version": "115.10.0",
+      "strict_max_version": "127.*"
     }
   },
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "default_locale": "en",
-  "version": "2.0.0a15",
-  "author": "Alexander Moisseev (moiseev@mezonplus.ru)",
+  "version": "2.0.0a16",
+  "author": "Florian Knodt (git-rspamd-spamness()adlerweb.info), Moisseev (moiseev@mezonplus.ru)",
   "homepage_url": "https://github.com/moisseev/rspamd-spamness",
   "icons": {
     "16": "images/icon.svg",

@@ -5,6 +5,7 @@
       {
         "name": "init",
         "type": "function",
+        "async": true,
         "parameters": []
       },
       {
