@@ -1,0 +1,181 @@
+{
+    "extensionDescription": {
+        "description": "Beschreibung der Erweiterung",
+        "message": "Zeigt die Spam-Wahrscheinlichkeit einzelner E-Mail basierend auf Rspamd-Punkten an."
+    },
+    "extensionName": {
+        "description": "Name der Erweiterung.",
+        "message": "Rspamd-spamness"
+    },
+    "spamness.alertText.colonInHeaderName": {
+        "message": "Der eingegebene Nachrichtenkopf enthält ungültige Zeichen (z.B. ':'), ein nicht-druckbares Zeichen, ein Nicht-ASCII-Zeichen, oder ein 8-Bit-ASCII-Zeichen. Bitte entfernen Sie die ungültigen Zeichen und versuchen Sie es erneut."
+    },
+    "spamness.alertText.destinationFolderAccountIsNotSet": {
+        "message": "Konto des Zielordners nicht gesetzt."
+    },
+    "spamness.alertText.destinationFolderLocationIsNotSet": {
+        "message": "Ort des Zielordners nicht gesetzt."
+    },
+    "spamness.alertText.destinationFolderNotFound": {
+        "message": "Zielordner nicht gefunden."
+    },
+    "spamness.alertText.error_2147500037_workaround": {
+        "message": "Versuchen sie vorher eine beliebige Nachricht im Konto des Zielordners anzuzeigen."
+    },
+    "spamness.alertText.moveNotPermittedForExternalMessages": {
+        "message": "Ein Verschieben ist für externe Nachrichten nicht erlaubt."
+    },
+    "spamness.buttonTrainHam.label": {
+        "message": "HAM lernen"
+    },
+    "spamness.buttonTrainHam.tooltip": {
+        "message": "Nachricht in den HAM-Lernordner verschieben"
+    },
+    "spamness.buttonTrainSpam.label": {
+        "message": "SPAM lernen"
+    },
+    "spamness.buttonTrainSpam.tooltip": {
+        "message": "Nachricht in den SPAM-Lernordner verschieben"
+    },
+    "spamness.messageHeader.label": {
+        "message": "Punkte"
+    },
+    "spamness.popupGroup.label": {
+        "message": "Gruppensymbole"
+    },
+    "spamness.popupRawExtendedHeader.label": {
+        "message": "Rohe, erweiterte Rspamd Kopfzeilen"
+    },
+    "spamness.popupSortByName.label": {
+        "message": "Symbole nach Name sortieren"
+    },
+    "spamness.popupSortByScore.label": {
+        "message": "Symbole nach Punkten sortieren"
+    },
+    "spamness.popupUngroup.label": {
+        "message": "Symbolgruppierung aufheben"
+    },
+    "spamness.rulesMessageHeader.label": {
+        "message": "Regeln"
+    },
+    "spamnessColumn.label": {
+        "message": "SPAM-Punkte [Rspamd]"
+    },
+    "spamnessColumnToolTip.label": {
+        "message": "Klicken um nach Rspamd SPAM-Punkten zu sortieren"
+    },
+    "spamnessInstalled.columnGroup.label": {
+        "message": "Die 'Spam Punkte'-Spalte anzeigen"
+    },
+    "spamnessInstalled.columnInstructions.label": {
+        "message": "Um die Spalte in jedem Ordner anzuzeigen, suchen sie in der Spaltenauswahl die 'SPAM-Punkte [Rspamd]'-Spalte und stellen Sie sicher, dass diese aktiviert ist und angezeigt wird. Um die Änderung für alle Ordner zu übernehmen öffnen Sie die Spaltenauswahl erneut, scrollen Sie bis zur Schaltfläche 'Spalten für ... anwenden', dann 'Ordner und Unterordner...' und wählen Sie den obersten Ordner des Kontos. Die Spalte wurde bereits automatisch den Standardspalten hinzugefügt, diese Änderung betrifft jedoch nicht bereits existierende Ordner."
+    },
+    "spamnessInstalled.folderGroup.label": {
+        "message": "Ordner neu indizieren"
+    },
+    "spamnessInstalled.folderInstructions.label": {
+        "message": "Um einen Ordner neu zu indizieren, wählen Sie denen aus und öffnen sie die Eigenschalten im Kontext- oder Bearbeiten-Menü. Klicken Sie dort auf 'Ordner reparieren'.  Sie müssen diese Schritte für jeden Ordner wiederholen."
+    },
+    "spamnessInstalled.introduction.label": {
+        "message": "Vielen Dank für die Installation von Rspamd-spamness. Um Rspamd-spamness zu nutzen müssen Sie sowohl alle Ordnerindizierungen für Ordner mit Rspamd-bewerteten E-Mails neu aufbauen, als auch die Anzeige der 'SPAM-Punkte'-Spalte für jeden Ordner einschalten. Wenn Sie Rspamd-spamness vor dem Anlegen Ihrer Konten installiert haben, können Sie den Rest dieses Leitfadens überspringen."
+    },
+    "spamnessInstalled.title": {
+        "message": "Rspamd-spamness Leitfaden"
+    },
+    "spamnessOptions.Ham.label": {
+        "message": "HAM:"
+    },
+    "spamnessOptions.Spam.label": {
+        "message": "SPAM:"
+    },
+    "spamnessOptions.account.dialog.title": {
+        "message": "Ordnereinstellungen je Konto"
+    },
+    "spamnessOptions.account.header.source.label": {
+        "message": "Quelle"
+    },
+    "spamnessOptions.account.header.destination.label": {
+        "message": "Ziel"
+    },
+    "spamnessOptions.account.header.account.label": {
+        "message": "Konto"
+    },
+    "spamnessOptions.account.header.folder.label": {
+        "message": "Ordner"
+    },
+    "spamnessOptions.account.header.location.label": {
+        "message": "Ort"
+    },
+    "spamnessOptions.saveBtn.label": {
+        "message": "Speichern"
+    },
+    "spamnessOptions.cancelBtn.label": {
+        "message": "Abbrechen"
+    },
+    "spamnessOptions.fieldsetDefaultTrainingFolderLocations.legend": {
+        "message": "Standardzielordner (für alle Konten)"
+    },
+    "spamnessOptions.accountSelector.label": {
+        "message": "Konto"
+    },
+    "spamnessOptions.captionDisplayColumnGroup.label": {
+        "message": "Spaltenanzeige"
+    },
+    "spamnessOptions.columnDisplayGroup.note": {
+        "message": "Diese Funktion ist mit dieser Thunderbird-Version nicht kompatibel. Unterstützte Versionen: 78.0 - 110.*."
+    },
+    "spamnessOptions.captionDisplayMessageGroup.label": {
+        "message": "Nachrichtenanzeige"
+    },
+    "spamnessOptions.captionTrainingButtonsGroup.label": {
+        "message": "Einstellungen für Lernschaltflächen"
+    },
+    "spamnessOptions.prefAdvOptions.title": {
+        "message": "Erweiterte Einstellungen"
+    },
+    "spamnessOptions.prefAdvOptionsBtn.label": {
+        "message": "Öffnen"
+    },
+    "spamnessOptions.prefDisplayColumnImageOnlyForPositive.label": {
+        "message": "Bild nur für positive Punkte anzeigen"
+    },
+    "spamnessOptions.prefDisplayMessageRules.label": {
+        "message": "Ausgelöste Regeln in Nachricht anzeigen"
+    },
+    "spamnessOptions.prefDisplayMessageScore.label": {
+        "message": "Punkte in Nachricht anzeigen"
+    },
+    "spamnessOptions.prefHeaderName.explain": {
+        "message": "Hinweis: Eine Änderung der von Rspamd-spamness genutzten Kopfzeilen erfordert eine Neuerstellung der Orderindizierung, sodass Thunderbird die Kopfzeilen aller Nachrichten neu einlesen kann. Öffnen Sie für jeden Ordner die Eigenschaften und klicken Sie auf die Schaltfläche 'Ordner reparieren'."
+    },
+    "spamnessOptions.prefHeaderName.label": {
+        "message": "Zusätzliche E-Mail-Kopfzeilen, die auf SPAM-Punkte geprüft werden sollen:"
+    },
+    "spamnessOptions.prefHeaderName.scoreHeaders": {
+        "message": "Standard E-Mail-Kopfzeilen:"
+    },
+    "spamnessOptions.prefHeadersColorizeSymbols.label": {
+        "message": "Symbole einfärben"
+    },
+    "spamnessOptions.prefShowBoth.label": {
+        "message": "Bild und Punkte anzeigen"
+    },
+    "spamnessOptions.prefShowImage.label": {
+        "message": "Nur Bild anzeigen"
+    },
+    "spamnessOptions.prefShowNLinesBeforeMore.label": {
+        "message": "Anzahl der angezeigten Zeilen der Regel-Kopfzeilen vor 'mehr' (0 - unbegrenzt)"
+    },
+    "spamnessOptions.prefShowText.label": {
+        "message": "Nur Punkte anzeigen"
+    },
+    "spamnessOptions.prefTrainingButtons.enabled.label": {
+        "message": "Lernschaltflächen einschalten"
+    },
+    "spamnessOptions.prefTrainingButtonsDefaultAction.title": {
+        "message": "Standardaktion der Lernschaltflächen"
+    },
+    "spamnessOptions.title": {
+        "message": "Rspamd-spamness Einstellungen"
+    }
+}
